@@ -1,2 +1,3 @@
-# blurpaderp.q42games.com
- 
+# Blurpaderp
+
+Generate random pronouncable ids.

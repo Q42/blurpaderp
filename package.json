@@ -1,0 +1,19 @@
+{
+  "name": "blurpaderp",
+  "version": "1.0.0",
+  "description": "Generate random pronouncable ids",
+  "main": "blurpaderp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lukasvan3l@github.com/Q42/blurpaderp.q42games.com.git"
+  },
+  "author": "Q42",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Q42/blurpaderp.q42games.com/issues"
+  },
+  "homepage": "https://github.com/Q42/blurpaderp.q42games.com#readme"
+}
