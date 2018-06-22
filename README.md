@@ -3,11 +3,27 @@
 Generate random pronouncable ids, between 9 and 15 characters long.
 
 ## Installing
-`npm install blurpaderp`
-
-## Using
+```sh
+npm install blurpaderp
+yarn add blurpaderp
 ```
-import Blurpaderp from 'blurpaderp';
 
+## Usage
+
+### Javascript
+```javascript
+var Blurpaderp = require('blurpaderp');
+var blurp = Blurpaderp.generate();
+console.log(blurp);
+```
+
+### Typescript
+```typescript
+import Blurpaderp from 'blurpaderp';
 console.log(Blurpaderp.generate());
+```
+
+## Test
+```sh
+npm run test
 ```
