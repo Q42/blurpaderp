@@ -2,24 +2,30 @@
 
 Generate random pronouncable ids, between 9 and 15 characters long.
 
+To see it working, start clicking on http://blurpaderp.q42games.com/
+
 ## Installing
 ```sh
 npm install blurpaderp
+```
+
+or
+
+```sh
 yarn add blurpaderp
 ```
 
 ## Usage
 
-### Javascript
 ```javascript
-var Blurpaderp = require('blurpaderp');
-var blurp = Blurpaderp.generate();
-console.log(blurp);
+import { Blurpaderp } from 'blurpaderp';
+console.log(Blurpaderp.generate());
 ```
 
-### Typescript
-```typescript
-import Blurpaderp from 'blurpaderp';
+or 
+
+```javascript
+var { Blurpaderp } = require('blurpaderp');
 console.log(Blurpaderp.generate());
 ```
 

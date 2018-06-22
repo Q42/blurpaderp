@@ -8,9 +8,9 @@ bl-u-rp-a-d-e-rp
 
 */
 
-import Utils from './utils';
+import { Utils } from './utils';
 
-export default class Blurpaderp {
+export class Blurpaderp {
 
 	private static pattern = '[dbpkfgvt][lrj]?[ae2io2u][rsxnm][dbpkgvt][lrj]?[ae2io2u][dbpkfgvt][lrj]?[ae2io2u][rnm][pkt]';
 

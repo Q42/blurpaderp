@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var Utils = require('../dist/utils.js').default;
+var { Utils } = require('../dist/utils.js');
 
 describe('Utils.between function test', () => {
   it('should always return 1 or 2', () => {
