@@ -1,6 +1,6 @@
 {
   "name": "blurpaderp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate random pronouncable ids",
   "main": "dist/blurpaderp.js",
   "types": "dist/blurpaderp.d.ts",
