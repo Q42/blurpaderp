@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var Blurpaderp = require('../dist/blurpaderp.js').Blurpaderp;
+var Blurpaderp = require('../dist/blurpaderp.js').default;
 
 describe('Blurpaderp test', () => {
   it('generate should return id with length >= 9', () => {
