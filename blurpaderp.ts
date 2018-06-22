@@ -8,13 +8,15 @@ bl-u-rp-a-d-e-rp
 
 */
 
+import Utils from './utils';
+
 export class Blurpaderp {
 
 	private static pattern = '[dbpkfgvt][lrj]?[ae2io2u][rsxnm][dbpkgvt][lrj]?[ae2io2u][dbpkfgvt][lrj]?[ae2io2u][rnm][pkt]';
 
 	static generate = function () {
 		var derp = '';
-		Blurpaderp.pattern.replace(/\[(.*?)\](\??)/gi, (substring: string, chars: string, optional: number) => {
+		Blurpaderp.pattern.replace(/\[(.*?)\](\??)/gi, ({}, chars: string, optional: number) => {
 			if (!optional || Utils.between(1, 2) == 1) {
 				var arr = [], last = '';
 				for (var i = 0; i < chars.length; i++) {
@@ -27,7 +29,7 @@ export class Blurpaderp {
 				}
 				derp += Utils.draw(arr);
 			}
-			return '';
+			return ''; // TODO unused, needed for typescript compilation
 		});
 		return derp;
 	}

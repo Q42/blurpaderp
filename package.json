@@ -2,9 +2,11 @@
   "name": "blurpaderp",
   "version": "1.0.0",
   "description": "Generate random pronouncable ids",
-  "main": "blurpaderp.js",
+  "main": "dist/blurpaderp.js",
+  "types": "dist/blurpaderp.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Q42/blurpaderp.q42games.com/issues"
   },
-  "homepage": "https://github.com/Q42/blurpaderp.q42games.com#readme"
+  "homepage": "https://github.com/Q42/blurpaderp.q42games.com#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4",
+    "typescript": "^2.8.3"
+  }
 }

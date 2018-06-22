@@ -1,9 +1,9 @@
-class Utils {
-  static between = function(min: number, max: number) {
+export default class Utils {
+  static between(min: number, max: number) {
     return Math.floor((Math.random() * (max - min + 1)) + min);
   }
 
-  static draw = function(arr: Array<string>) {
+  static draw(arr: Array<string>) {
     var drawFromArr = arr;
     if (drawFromArr.length == 0)
       return null;
