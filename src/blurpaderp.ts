@@ -14,6 +14,7 @@ export class Blurpaderp {
 
 	private static pattern = '[dbpkfgvt][lrj]?[ae2io2u][rsxnm][dbpkgvt][lrj]?[ae2io2u][dbpkfgvt][lrj]?[ae2io2u][rnm][pkt]';
 
+	/** Generate a non-unique pronounceable ID */
 	static generate = function () {
 		var derp = '';
 		Blurpaderp.pattern.replace(/\[(.*?)\](\??)/gi, ({}, chars: string, optional: number) => {

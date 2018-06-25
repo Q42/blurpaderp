@@ -6,7 +6,9 @@
   "types": "dist/blurpaderp.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "npm run build && mocha --reporter spec"
+    "test": "npm run build && mocha --reporter spec",
+    "document": "typedoc --out doc/ src/",
+    "publish": "npm run test && npm version patch -m \"Publishing %s\" && npm run document && npm publish"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
     "@types/chai": "^4.1.4",
     "chai": "^4.1.2",
     "mocha": "^5.0.4",
+    "typedoc": "^0.11.1",
     "typescript": "^2.8.3"
   }
 }
