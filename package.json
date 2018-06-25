@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "test": "npm run build && mocha --reporter spec",
-    "document": "typedoc --out doc/ src/",
+    "document": "typedoc --out docs/ src/",
     "publish": "npm run test && npm version patch -m \"Publishing %s\" && npm run document && npm publish"
   },
   "repository": {
