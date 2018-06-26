@@ -2,7 +2,9 @@
 
 Generate random pronouncable ids, between 9 and 15 characters long.
 
-To see it working, start clicking on http://blurpaderp.q42games.com/
+To see it working, start clicking on [this demo page](/demo).
+
+The generated typescript docs are available at [/docs](/docs).
 
 ## Installing
 ```sh
